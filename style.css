@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 
 .square {
@@ -12,6 +13,7 @@
 
 #grid {
     display: flex;
-    width: 960px; 
+    width: 900px; 
     flex-wrap: wrap;
+    margin: 20px auto 0;
 }
