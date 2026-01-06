@@ -7,7 +7,7 @@ The project involves creating a grid of square divs where users can draw by hove
 ## Live Demo
 https://etonova.github.io/etch-a-sketch/
 
-## skills Demonstrated
+## Skills Demonstrated
 - JavaScript DOM Manipulation: Created dynamic elements and modified the page structure using JavaScript.
 - Event Handling: Added interactive features like hover effects with JavaScript.
 - Layout Design: Used Flexbox for responsive grid layouts.
