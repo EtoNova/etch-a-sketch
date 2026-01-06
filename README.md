@@ -5,6 +5,7 @@ This project is part of my JavaScript learning journey through The Odin Project.
 The project involves creating a grid of square divs where users can draw by hovering over them. I used JavaScript to generate the grid and CSS Flexbox to lay out the divs. The grid is dynamic, with a an input field that allows users to enter the grid size, and the grid adjusts accordingly.
 
 ## Live Demo
+https://etonova.github.io/etch-a-sketch/
 
 ## skills Demonstrated
 - JavaScript DOM Manipulation: Created dynamic elements and modified the page structure using JavaScript.

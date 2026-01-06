@@ -13,15 +13,23 @@ function createGrid(gridSize){
         square.classList.toggle("square");
 
         square.addEventListener("mouseenter", (e) => {
-            handleMouseEnter(square)
+            changeColour(square)
         });
 
         grid.appendChild(square); 
     }
 }
 
-function handleMouseEnter(square) {
-  square.style.backgroundColor = "#6bbdff";
+function changeColour(square) {
+    if(square.style.backgroundColor){
+        // Progressive darkening effect where each mouse hover darkens the square by 10%
+        if (square.style.opacity !== 1)
+            square.style.opacity = parseFloat(square.style.opacity) + 0.1; 
+        return; 
+    }
+    const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+    square.style.backgroundColor = randomColor;
+    square.style.opacity = 0.1; 
 }
 
 // Create grid based on user input
