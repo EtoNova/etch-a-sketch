@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.square {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f1eeee;
+    margin: 0;
+    padding: 0;
+}
+
+#grid {
+    display: flex;
+    width: 960px; 
+    flex-wrap: wrap;
+}
